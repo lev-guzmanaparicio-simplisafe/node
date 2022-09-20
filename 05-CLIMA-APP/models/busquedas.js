@@ -88,8 +88,6 @@ class Busquedas {
   }
 
   agregarHistorial(lugar = ""){
-    //TODO: prevenir duplicados
-
     if(this.historial.includes(lugar.toLowerCase())){
         return;
     }
